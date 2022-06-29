@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@300&display=swap');
 
 
-body {
+body,html {
   margin: 0;
   padding: 0;
   border: 0;
@@ -16,6 +16,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 
 :root{
@@ -131,7 +132,7 @@ img{
 
 /* //////////////////////////////////////////////////////////////////////// */
 
-@media screen and( max-width=1024px ){
+@media screen and( max-width:1024px ){
   .container{
     width: var(--container-width-md);
   }
@@ -140,7 +141,9 @@ img{
   }
 
 }
-@media screen and( max-width=600px ){
+@media screen and( max-width:600px ){
+ 
+  
   .container{
     width: var(--container-width-sm);
   }

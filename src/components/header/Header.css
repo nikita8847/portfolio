@@ -68,4 +68,8 @@ header{
     .header_socials , .scroll_down{
         display: none;
     }
+
+    .Me{
+        width: 19rem;
+    }
 }
